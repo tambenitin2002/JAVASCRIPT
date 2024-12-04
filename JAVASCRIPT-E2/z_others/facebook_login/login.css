@@ -1,0 +1,73 @@
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+.outer{
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(218, 223, 228);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.log{
+   color: rgb(24,119,242);
+}
+big{
+    font-size: 500%;  
+}
+
+.inner{
+    background-color: whitesmoke;
+    height: auto;
+    width: 90%;
+    border-radius: 5px;
+    
+}
+.title{
+    padding: 2%;
+}
+.mail{
+    padding: 3%;
+}
+.email input{
+    width: 200px;
+    line-height: 80%;
+    padding: 2%;
+    border-radius: 5px;
+}
+.pass{
+    padding: 3%;
+}
+.pass input{
+    border-radius: 5px;
+    width: 200px;
+    line-height: 80%;
+    padding: 2%;
+}
+.login input{
+   background-color:  rgb(24,119,242);
+   padding: 2%;
+   border-radius: 8px;
+   padding: 2%;
+   color: aliceblue;
+   font-size: medium;
+}
+button{
+
+    background-color:rgb(46, 241, 46);
+    border-radius: 7px;
+    padding: 2%;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+.button{
+    padding: 2%;
+    padding-bottom: 5%;
+}

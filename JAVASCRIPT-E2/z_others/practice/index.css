@@ -1,0 +1,9 @@
+.food{
+    display: flex;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+}
+.one{
+    height: 400px;
+    width: 400px;
+}

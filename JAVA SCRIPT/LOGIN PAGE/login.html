@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1>Login Here here</h1>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email"> 
+        <br>
+      <input type='password' id='password' name='password' placeholder="Enter Your Password">
+      <br>
+      <button id="btn1">Login</button>
+      <br>
+      <p>Don't Have an Account <a href="./signup.html">Login</a></p>
+    </form>
+    <script>
+        let btn=document.getElementById('btn1')
+        btn.addEventListener('click',(e)=>{
+            e.preventDefault()
+            let email=document.getElementById('email').value
+            let password=document.getElementById('password').value
+             let userEmail = window.sessionStorage.getItem('email')
+             let userPassword = window.sessionStorage.getItem('password')
+             if(email===userEmail && password===userPassword){
+                window.open('./Home.html')
+             }else{
+                alert("Check your Email and Password")
+             }
+             
+             
+        })
+    </script>
+</body>
+</html>

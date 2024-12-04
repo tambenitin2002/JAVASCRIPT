@@ -1,0 +1,5 @@
+localStorage.setItem("name","vikas")
+localStorage.setItem("place","mysore")
+let name=localStorage.getItem('name')
+let place=localStorage.getItem('place')
+document.write(`My name is ${name} and place is ${place}`)

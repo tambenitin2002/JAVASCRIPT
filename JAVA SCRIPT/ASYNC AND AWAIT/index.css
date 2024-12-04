@@ -1,0 +1,36 @@
+
+/* body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+/* section{
+    height: auto;
+    width: 200px;
+    border: 2px solid black;
+} */
+body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+}
+
+.cards{
+    height:auto;
+    width: 300px;
+    text-align: center;
+    border: 2px solid black;
+    
+}
+p{
+    text-align: center;
+    text-wrap: 40px;
+}
+
+/* img{
+    size: 50px;
+} */
